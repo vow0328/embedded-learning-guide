@@ -1,0 +1,11 @@
+# 开发过程文档（重构规格、计划、草稿来源），不纳入教程正文
+docs/superpowers/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code 本地配置与权限白名单（会话副产物，不纳入仓库）
+.claude/
