@@ -16,7 +16,7 @@ RTOS 更像是"给单片机加了一个高级的任务调度器"，而 Linux 是
 | [8.2 应用层开发](02-应用层开发.md) | GCC 编译流程、Makefile、GDB；文件 IO、多进程多线程、线程同步、IPC、Socket、epoll；Shell 与 systemd；交叉编译 | ★★★ |
 | [8.3 驱动开发](03-驱动开发.md) | 内核模块机制、字符设备与 file_operations、设备树、Platform 总线模型；GPIO/I2C/SPI/中断/IIO 等常见驱动 | ★★★★★ |
 | [8.4 系统移植与构建](04-系统移植与构建.md) | U-Boot、内核裁剪、设备树适配、根文件系统（Buildroot/Yocto）、启动参数 | ★★★★★ |
-| [8.5 实时 Linux 与性能调优](05-实时Linux与性能调优.md) | PREEMPT_RT、中断线程化、CPU 隔离；perf/ftrace/strace；启动时间优化；rootfs OTA | ★★★★（选学） |
+| [8.5 实时 Linux 与性能调优](05-实时Linux与性能调优.md) | 延迟从哪里来、PREEMPT_RT 与双内核、中断线程化、CPU 隔离、内存锁定；perf/ftrace 与火焰图、延迟的测法；启动时间优化；Linux + MCU 异构架构 | ★★★★（选学） |
 | [8.6 视觉与多媒体](06-视觉与多媒体.md) | V4L2 摄像头采集、GStreamer、OpenCV 部署、NPU 与边缘 AI 部署路径 | ★★★★（选学） |
 
 ## 适合谁

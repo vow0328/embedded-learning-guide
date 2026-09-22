@@ -6,12 +6,12 @@
 
 | 篇目 | 内容 | 难度 |
 |---|---|---|
-| [7.1 总线协议](01-总线协议.md) | UART、单总线、I2C、SPI、CAN、RS-485 的时序、典型应用与常见坑 | ★★★ |
-| [7.2 网络与应用层协议](02-网络与应用层协议.md) | MQTT/HTTP/WebSocket；Modbus RTU/TCP；CANopen；UDS 诊断；CAN FD | ★★★★ |
-| [7.3 无线通信模块](03-无线通信模块.md) | WiFi、蓝牙/BLE、LoRa、2.4G、4G、NB-IoT 的特点、AT 指令与选型维度 | ★★★ |
+| [7.1 总线协议](01-总线协议.md) | UART、单总线、I2C、SPI、CAN（含 CAN FD）、RS-485 与 Modbus RTU、LIN、I2S 的时序、典型应用与常见坑 | ★★★ |
+| [7.2 网络与应用层协议](02-网络与应用层协议.md) | TCP/IP 分层与 socket 编程；MQTT/HTTP/WebSocket/CoAP；Modbus RTU/TCP；CANopen 与 UDS 诊断；AUTOSAR | ★★★★ |
+| [7.3 无线通信模块](03-无线通信模块.md) | WiFi、蓝牙/BLE、Zigbee、LoRa、NB-IoT、4G/5G 的特点与选型；AT 指令与透传模式；心跳保活与低功耗设计 | ★★★ |
 | [7.4 云平台接入](04-云平台接入.md) | 阿里云 IoT / 腾讯云 / OneNET / AWS IoT 的接入思路、设备鉴权、物模型、OTA 下发 | ★★★ |
 | [7.5 安全与加密](05-安全与加密.md) | 对称/非对称加密与哈希、mbedTLS、安全启动与固件签名、密钥存储、防抄板、常见攻击面 | ★★★★ |
-| [7.6 协议栈与中间件](06-协议栈与中间件.md) | LwIP 移植与裁剪、MQTT 客户端、cJSON、AT 组件、文件系统、LVGL | ★★★ |
+| [7.6 协议栈与中间件](06-协议栈与中间件.md) | lwIP 移植与三种 API、USB 协议栈、文件系统、LVGL 图形库、电机控制与算法库、调试与日志中间件；引入中间件的评估清单 | ★★★ |
 
 ## 适合谁
 
